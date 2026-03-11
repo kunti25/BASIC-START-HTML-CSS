@@ -1,0 +1,305 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+header {
+    background-color: lightseagreen;
+    padding: 15px 0;
+}
+
+nav {
+    text-align: end;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    font-size: 30px;
+    padding: 20px;
+}
+
+nav a:hover {
+    color: #2102bb;
+}
+
+section {
+    padding: 60px 90px;
+    margin: 20px auto;
+    width: 90%;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+#home {
+
+    height: 60vh;
+}
+
+h1 {
+    color: #0044ff;
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 40px;
+}
+
+h2 {
+    color: #06a5e4;
+    margin: 10px 0;
+    font-size: 35px;
+}
+
+.me {
+    margin-bottom: 250px;
+    justify-content: left;
+    text-align: right;
+    color: darkblue;
+    font-size: 40px;
+    padding: 20px;
+}
+
+.two {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    text-align: center;
+    padding: 30px 20px;
+    padding-bottom: 30px;
+}
+
+.frist {
+    display: flex;
+    background-color: rgb(225, 183, 226);
+    width: 70vw;
+    font-size: 28px;
+    margin-left: 70px;
+    height: 40vh;
+    margin-top: 50px;
+    border-radius: 8px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    box-shadow: 10px 20px 15px rgba(210, 1, 1, 0.1);
+}
+
+#your {
+    background-color: hsl(0, 0%, 80%);
+    border: 2px solid black;
+}
+
+.you {
+    height: 40vh;
+    margin: 10px;
+}
+
+.profile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title {
+    width: 60%;
+    padding: 70px;
+    font-size: 20px;
+    color: #000;
+    justify-content: center;
+    margin-bottom: 10%;
+    background-color: rgb(39, 174, 228);
+    border-radius: 5px;
+}
+
+.title h2 {
+    color: black;
+    margin-bottom: 50px;
+}
+
+.image-box {
+    width: 35%;
+    text-align: center;
+    margin-bottom: 170px;
+    margin-right: 20px;
+}
+
+.image-box img {
+    width: 300px;
+    height: 340px;
+    border-radius: 3%;
+}
+
+h3 {
+    font-weight: normal;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 40px;
+    padding: 20px;
+    justify-content: start;
+
+}
+
+.box {
+    width: 25%;
+    padding: 15px;
+    border-radius: 12px;
+    background-color: rgb(51, 169, 215);
+}
+
+h2 {
+    text-align: start;
+    color: #222;
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 50px;
+}
+
+#courses {
+    background-color: rgb(108, 199, 236);
+    height: 48vh;
+}
+
+#courses p {
+    font-size: 25px;
+}
+
+#courses ul {
+    font-size: 27px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+caption {
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+
+th,
+td {
+    padding: 12px;
+    text-align: center;
+    font-weight: bold;
+}
+
+th {
+    background-color: rgb(54, 169, 215);
+    color: white;
+    font-size: 20px;
+}
+
+tfoot td {
+    font-weight: bold;
+    background-color: rgb(54, 169, 215);
+    font-size: 20px;
+}
+
+#grades {
+    background-color: rgb(232, 200, 205);
+    height: 48vh;
+}
+
+#feedback {
+    width: 80%;
+    /* margin: 50px auto; */
+    padding: 30px;
+    border: 2px solid #ccc;
+    background-color: lightblue;
+    width: 90vw;
+    height: 60vh;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#feedback h1 {
+    text-align: center;
+    margin-bottom: 30px;
+
+}
+
+.feedback-form {
+    display: flex;
+    justify-content: space-between;
+    gap: 70px;
+    font-size: 20px;
+}
+
+.main {
+    font-size: 22px;
+}
+
+.left,
+.right {
+    width: 45%;
+}
+
+.left label {
+    margin-left: 60px;
+}
+
+.right label,
+input {
+    margin-left: 60px;
+}
+
+input[type="text"],
+input[type="email"],
+select,
+textarea {
+    width: 80%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    margin-left: 60px;
+    font-size: 15px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: rgb(15, 15, 206);
+    color: white;
+    border: none;
+    font-size: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 60px;
+}
+
+button:hover {
+    background-color: lightslategray;
+}
+
+#contact {
+    background-color: lightgray;
+    height: 40vh;
+    font-size: 20px;
+}
+
+.imge {
+    display: flex;
+    margin-top: 80px;
+    cursor: pointer;
+    justify-content: end;
+}
+
+footer {
+    background-color: #2d89e4;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+    font-size: 20px;
+}
